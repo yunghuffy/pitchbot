@@ -12,7 +12,7 @@ def werthit(message):
     hrs = float(root.attrib['s_hr'])
     total_salary = float(21000000)
     games = get_standings()
-    season_pct = games / 162
+    season_pct = games / 162.0
     salary = total_salary * season_pct
     locale.setlocale( locale.LC_ALL, '' )
     hrs_per = salary / hrs
