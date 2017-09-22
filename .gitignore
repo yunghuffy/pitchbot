@@ -67,3 +67,4 @@ target/
 # Local settings 
 slackbot_settings.py
 strikezone.py
+.ropeproject
