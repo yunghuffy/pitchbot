@@ -68,3 +68,4 @@ target/
 slackbot_settings.py
 strikezone.py
 .ropeproject
+.venv
